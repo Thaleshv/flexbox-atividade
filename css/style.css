@@ -212,6 +212,67 @@ img {
   font-size: 1em;
 }
 
+/* Contato */
+.contato {
+  border-bottom: 2px solid #ba4721;
+  border-top: 2px solid #ba4721;
+  max-width: 960px;
+  padding: 60px;
+  margin: 0 auto;
+  flex-direction: column;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.contato-form h2 {
+  color: #a4a4a4;
+  font-size: 3em;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.contato-form {
+  border: 2px solid #a4a4a4;
+  padding: 20px;
+  flex-direction: column;
+  display: flex;
+}
+
+.contato-form input {
+  color: #7c7c7c;
+  font-size: 16px;
+  margin: 5px 0;
+  height: 35px;
+  padding-left: 10px;
+}
+
+.contato-form label {
+  color: #7c7c7c;
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+.contato-form textarea {
+  color: #7c7c7c;
+  margin: 5px 0;
+  height: 80px;
+  resize: none;
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+.contato-form button {
+  color: #222222;
+  text-align: center;
+  display: block;
+  border: 4px solid;
+  margin: 15px 0;
+  font-weight: bold;
+  font-size: 2em;
+  padding: 15px 0;
+  cursor: pointer;
+}
+
 /* Media Queries */
 
 @media (max-width: 800px) {
